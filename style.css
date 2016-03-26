@@ -1,0 +1,10 @@
+.cookie-box {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height linear .3s;
+}
+
+.cookiePopup .cookie-box {
+    max-height: 200px;
+  }
